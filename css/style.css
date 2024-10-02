@@ -1,0 +1,20 @@
+h1, h3{
+    text-align: center;
+}
+
+.wrapping{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box{
+    width: 20%;
+    height: 20%;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.centering{
+    text-align: center;
+}
