@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unidad 1, Actividad 2: Ejercicio 1</title>
+    <link rel="stylesheet" href="./css/u1a2e1.css">
     <script src="./js/u1a2e1.js"></script>
 </head>
 <body>
     <a href="index.html">REGRESAR AL MENÚ</a>
     <h1>Arreglo 1</h1>
     Capture e imprima un arreglo de 10 elementos de tipo entero. El arreglo se debe de imprimir de forma horizontal y vertical. Muestre el índice de cada elemento. La captura de elementos se debe cancelar al introducir el último elemento. Incluya un botón de reinicio.<br>
-    <p style="display: inline;" id="arreglo">Capture el elemento [0]</p>
+    <p id="arreglo">Capture el elemento [0]</p>
     <input type="number" id="datos" onkeydown="if(event.key==='.'){event.preventDefault();}" required>
     <input type="submit" value="Capturar" onclick="capturar()" id="capturar">
     <input type="button" value="Reiniciar" onclick="reiniciar()">
