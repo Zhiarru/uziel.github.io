@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidad 1, Actividad 3: Ejercicio 1</title>
+    <link rel="stylesheet" href="./css/u1a3e1.css">
+    <script src="./js/u1a3e1.js"></script>
+</head>
+<body onload="revolver(); fondo();">
+    <table id="tablero">
+        <tr>
+            <td><img src="./img/0.jpg" id="0" alt="" class="imagen" onclick="mostrarImagen(this, 0)"></td>
+            <td><img src="./img/0.jpg" id="1" alt="" class="imagen" onclick="mostrarImagen(this, 1)"></td>
+            <td><img src="./img/0.jpg" id="2" alt="" class="imagen" onclick="mostrarImagen(this, 2)"></td>
+            <td><img src="./img/0.jpg" id="3" alt="" class="imagen" onclick="mostrarImagen(this, 3)"></td>
+        </tr>
+        <tr>
+            <td><img src="./img/0.jpg" id="4" alt="" class="imagen" onclick="mostrarImagen(this, 4)"></td>
+            <td><img src="./img/0.jpg" id="5" alt="" class="imagen" onclick="mostrarImagen(this, 5)"></td>
+            <td><img src="./img/0.jpg" id="6" alt="" class="imagen" onclick="mostrarImagen(this, 6)"></td>
+            <td><img src="./img/0.jpg" id="7" alt="" class="imagen" onclick="mostrarImagen(this, 7)"></td>
+        </tr>
+        <tr>
+            <td><img src="./img/0.jpg" id="8" alt="" class="imagen" onclick="mostrarImagen(this, 8)"></td>
+            <td><img src="./img/0.jpg" id="9" alt="" class="imagen" onclick="mostrarImagen(this, 9)"></td>
+            <td><img src="./img/0.jpg" id="10" alt="" class="imagen" onclick="mostrarImagen(this, 10)"></td>
+            <td><img src="./img/0.jpg" id="11" alt="" class="imagen" onclick="mostrarImagen(this, 11)"></td>
+        </tr>
+        <tr>
+            <td><img src="./img/0.jpg" id="12" alt="" class="imagen" onclick="mostrarImagen(this, 12)"></td>
+            <td><img src="./img/0.jpg" id="13" alt="" class="imagen" onclick="mostrarImagen(this, 13)"></td>
+            <td><img src="./img/0.jpg" id="14" alt="" class="imagen" onclick="mostrarImagen(this, 14)"></td>
+            <td><img src="./img/0.jpg" id="15" alt="" class="imagen" onclick="mostrarImagen(this, 15)"></td>
+        </tr>
+    </table>
+    <h1 id="contador">Pares Encontrados: 0</h1>
+    <input type="button" value="Reiniciar" onclick="reiniciar()">
+    <p id="salida"></p>
+    <h3><a href="referenciasu1a3e1.html">Referencias y créditos de las imágenes</a></h3>
+</body>
+</html>
