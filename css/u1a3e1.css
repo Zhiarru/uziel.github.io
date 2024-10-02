@@ -1,0 +1,19 @@
+img{
+    height: 150px;
+    width: auto;
+}
+
+table{
+    margin-left: 10%; 
+    margin-right: auto;
+    display: inline-table;
+}
+
+h1{
+    display: inline;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
