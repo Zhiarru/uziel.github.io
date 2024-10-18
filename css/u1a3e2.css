@@ -1,0 +1,21 @@
+table{
+    position: relative;
+}
+
+input[type=button]{
+    width: 200px;
+    height: 200px;
+    font-size: 150px;
+}
+
+h1{
+    display: inline;
+}
+
+tr{
+    position: relative;
+}
+
+td{
+    position: relative;
+}
