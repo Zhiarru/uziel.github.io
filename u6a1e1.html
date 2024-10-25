@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilas: Ejercicio 1</title>
+    <link rel="stylesheet" href="./css/u6a1e1.css">
+    <script src="./js/u6a1e1.js"></script>
+</head>
+<body onload="aleatorias();">
+    <a href="index.html">REGRESAR AL MENÚ</a><br>
+    Desarrolle una aplicación que muestre un objeto tipo pila, e implemente los métodos push(), pop(), peek(), clear(), find() e isEmpty().<br>
+    Elemento: <input type="text" id="elemento" onkeyup="cambioTexto();">
+    <input type="button" id="pushButton" value="P()" onclick="pushTabla(); aleatorias();">
+    <input type="button" value="Pop" onclick="popTabla();">
+    <input type="button" value="Peek" onclick="peekTabla();">
+    <input type="button" value="Clear" onclick="clearTabla();">
+    <input type="button" id="findButton" value="Find" onkeyup="cambioTexto();" onclick="findTabla();">
+    <input type="button" value="isEmpty" onclick="isEmpty();">
+    <table>
+        <tbody id="tabla"></tbody>
+    </table>
+    <p id="out"></p>
+</body>
+</html>
