@@ -1,0 +1,13 @@
+input[type=text]{
+    width: 500px;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+#textPaso{
+    position: fixed;
+    top: 62%;
+    left: 75%;
+}
+table{
+    border-collapse: collapse;
+}
