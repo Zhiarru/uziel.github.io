@@ -1,0 +1,8 @@
+#contenedortablas{
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+tr{
+    width: 100px;
+}
