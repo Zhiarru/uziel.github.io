@@ -1,0 +1,21 @@
+.bold-tag{
+    display: inline; 
+    vertical-align: top; 
+    font-size: medium; 
+    font-weight: bolder;
+}
+
+h2{
+    color: red;
+}
+
+.test-tag{
+    display: inline; 
+    vertical-align: top; 
+    font-size: medium;
+}
+
+textarea{
+    width: 85%;
+    resize: none;
+}
