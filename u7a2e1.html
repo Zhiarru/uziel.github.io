@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifrado de Caesar</title>
+    <link rel="stylesheet" href="./css/u7caesar.css">
+    <script src="./js/u7a2e1.js"></script>
+</head>
+<body onload="llenarClaves();">
+    <a href="index.html">REGRESAR AL ÍNDICE</a>
+    <h1>Algoritmo de cifrado de Caesar</h1>
+    <p class="bold-tag">Mensaje</p>
+    <textarea id="textOriginal" rows="20" onkeydown="allowChar(event);" onkeyup="enviarMayus(this);"></textarea><br><br>
+    <p class="text-tag">Clave / Llave:</p>
+    <select id="key1"></select>
+    <select id="key2"></select>
+    <select id="key3"></select>
+    <select id="key4"></select>
+    <select id="key5"></select>
+    <select id="key6"></select>
+    <input type="button" value="Ejemplo 1" onclick="primerEj();">
+    <input type="button" value="Ejemplo 2" onclick="segundoEj();">
+    <input type="button" value="Borrar Texto" onclick="borrarTexto();">
+    <input type="button" value="Encriptar" onclick="encriptarM();">
+    <input type="button" value="Guardar Llave" onclick="guardarLlave();">
+    <input type="button" value="Guardar Mensaje Encriptado" onclick="guardarME();">
+    <h2 id="alerta"></h2>
+    <p class="bold-tag">Mensaje<br>Encriptado</p>
+    <textarea id="textoEncriptado" rows="20" readonly></textarea>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+    <script src="./js/u5a1e1.js"></script>
+</head>
+<body onload="aleatorias();">
+    <a href="index.html">REGRESAR AL ÍNDICE</a>
+    <h1>Lista</h1>
+    Elemento: <input type="text" id="elemento" onkeyup="cambioTexto();">
+    <input type="button" id="pushLista" value="push()" onclick="pushTabla(); aleatorias();">
+    <input type="button" id="popLista" value="pop()" disabled>
+    <input type="button" id="shiftLista" value="shift()" disabled>
+    <input type="button" id="unshiftLista" value="unshift()" disabled>
+    <input type="button" id="indexOfLista" value="indexOf()" disabled>
+    <input type="button" id="listaIncludes" value="includes()" disabled>
+    <input type="button" id="sortLista" value="sort()" disabled>
+    <input type="button" id="reverseLista" value="reverse()" disabled><br><br>
+    Posición: <input type="number" id="posicion" min="0" onkeyup="cambioTexto();" disabled>
+    <input type="button" id="listaInsertAt" value="insert_at()" disabled>
+    <input type="button" id="clearLista" value="clear()" disabled><br><br>
+    <table><tbody id="tabla"></tbody></table>
+</body>
+</html>

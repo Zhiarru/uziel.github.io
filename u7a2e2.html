@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descifrado de mensaje encriptado con Caesar</title>
+    <link rel="stylesheet" href="./css/u7caesar.css">
+    <script src="./js/u7a2e2.js"></script>
+</head>
+<body onload="cargar();">
+    <a href="index.html">REGRESAR AL ÍNDICE</a>
+    <h1>Algoritmo para descifrar un mensaje encriptado con Caesar</h1>
+    <p class="bold-tag">Mensaje<br>Encriptado</p>
+    <textarea id="textoEncriptado" rows="20" readonly></textarea><br><br>
+    <p class="text-tag">Clave / Llave:</p>
+    <select id="key1" disabled>
+        <option value="">--</option>
+    </select>
+    <select id="key2" disabled>
+        <option value="">--</option>
+    </select>
+    <select id="key3" disabled>
+        <option value="">--</option>
+    </select>
+    <select id="key4" disabled>
+        <option value="">--</option>
+    </select>
+    <select id="key5" disabled>
+        <option value="">--</option>
+    </select>
+    <select id="key6" disabled>
+        <option value="">--</option>
+    </select>
+    <input type="button" value="Borrar Texto" onclick="borrarTexto();">
+    <input type="file" id="archivoLlave" style="display: none;" accept=".txt" >
+    <input type="button" value="Subir archivo de llave" onclick="document.getElementById('archivoLlave').click();">
+    <input type="file" id="archivoME" style="display: none;" accept=".txt">
+    <input type="button" value="Subir Mensaje Encriptado" onclick="document.getElementById('archivoME').click();">
+    <input type="button" value="Desencriptar" onclick="desencriptar();">
+    <input type="button" value="Guardar Mensaje Desencriptado" onclick="guardarMD();">
+    <h2 id="alerta"></h2>
+    <p class="bold-tag">Mensaje<br>Desencriptado</p>
+    <textarea id="textoDesencriptado" rows="20" readonly></textarea>
+</body>
+</html>
